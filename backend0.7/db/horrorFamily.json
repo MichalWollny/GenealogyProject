@@ -1,0 +1,246 @@
+[
+  {
+    "_id": {
+      "$oid": "67aa62d30e0587b2eb5c9ca0"
+    },
+    "firstName": "Freddy",
+    "lastName": "Krueger",
+    "birthDate": "17-08-1920",
+    "deathDate": "18-11-1984",
+    "gender": "Male",
+    "parents": [],
+    "spouses": [
+      {
+        "person": {
+          "$ref": "Person",
+          "$id": "67aa62d30e0587b2eb5c9ca1"
+        },
+        "type": "married"
+      }
+    ],
+    "siblings": [],
+    "children": [
+      {
+        "person": {
+          "$ref": "Person",
+          "$id": "67aa62d30e0587b2eb5c9ca2"
+        },
+        "type": "blood"
+      },
+      {
+        "person": {
+          "$ref": "Person",
+          "$id": "67aa62d30e0587b2eb5c9ca3"
+        },
+        "type": "blood"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "67aa62d30e0587b2eb5c9ca1"
+    },
+    "firstName": "Nancy",
+    "lastName": "Thompson",
+    "birthDate": "20-04-1925",
+    "deathDate": "25-12-2000",
+    "gender": "Female",
+    "parents": [],
+    "spouses": [
+      {
+        "person": {
+          "$ref": "Person",
+          "$id": "67aa62d30e0587b2eb5c9ca0"
+        },
+        "type": "married"
+      }
+    ],
+    "siblings": [],
+    "children": [
+      {
+        "person": {
+          "$ref": "Person",
+          "$id": "67aa62d30e0587b2eb5c9ca2"
+        },
+        "type": "blood"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "67aa62d30e0587b2eb5c9ca2"
+    },
+    "firstName": "Jason",
+    "lastName": "Voorhees",
+    "birthDate": "13-06-1946",
+    "deathDate": null,
+    "gender": "Male",
+    "parents": [
+      {
+        "person": {
+          "$ref": "Person",
+          "$id": "67aa62d30e0587b2eb5c9ca0"
+        },
+        "type": "blood"
+      }
+    ],
+    "spouses": [],
+    "siblings": [
+      {
+        "person": {
+          "$ref": "Person",
+          "$id": "67aa62d30e0587b2eb5c9ca3"
+        },
+        "type": "blood"
+      }
+    ],
+    "children": [
+      {
+        "person": {
+          "$ref": "Person",
+          "$id": "67aa62d30e0587b2eb5c9ca4"
+        },
+        "type": "blood"
+      },
+      {
+        "person": {
+          "$ref": "Person",
+          "$id": "67aa62d30e0587b2eb5c9ca7"
+        },
+        "type": "blood"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "67aa62d30e0587b2eb5c9ca3"
+    },
+    "firstName": "Michael",
+    "lastName": "Myers",
+    "birthDate": "19-10-1963",
+    "deathDate": null,
+    "gender": "Male",
+    "parents": [
+      {
+        "person": {
+          "$ref": "Person",
+          "$id": "67aa62d30e0587b2eb5c9ca1"
+        },
+        "type": "blood"
+      }
+    ],
+    "spouses": [],
+    "siblings": [],
+    "children": []
+  },
+  {
+    "_id": {
+      "$oid": "67aa62d30e0587b2eb5c9ca4"
+    },
+    "firstName": "Leatherface",
+    "lastName": "Hewitt",
+    "birthDate": "02-08-1968",
+    "deathDate": null,
+    "gender": "Male",
+    "parents": [
+      {
+        "person": {
+          "$ref": "Person",
+          "$id": "67aa62d30e0587b2eb5c9ca2"
+        },
+        "type": "blood"
+      }
+    ],
+    "spouses": [],
+    "siblings": [],
+    "children": []
+  },
+  {
+    "_id": {
+      "$oid": "67aa62d30e0587b2eb5c9ca5"
+    },
+    "firstName": "Pennywise",
+    "lastName": "The Dancing Clown",
+    "birthDate": "null",
+    "deathDate": null,
+    "gender": "Unknown",
+    "parents": [],
+    "spouses": [],
+    "siblings": [],
+    "children": [
+      {
+        "person": {
+          "$ref": "Person",
+          "$id": "67aa62d30e0587b2eb5c9ca7"
+        },
+        "type": "blood"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "67aa62d30e0587b2eb5c9ca6"
+    },
+    "firstName": "Chucky",
+    "lastName": "Charles Lee Ray",
+    "birthDate": "null",
+    "deathDate": null,
+    "gender": "Male",
+    "parents": [],
+    "spouses": [],
+    "siblings": [],
+    "children": [
+      {
+        "person": {
+          "$ref": "Person",
+          "$id": "67aa62d30e0587b2eb5c9ca8"
+        },
+        "type": "blood"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "67aa62d30e0587b2eb5c9ca7"
+    },
+    "firstName": "Ghostface",
+    "lastName": "Unknown",
+    "birthDate": "null",
+    "deathDate": null,
+    "gender": "Unknown",
+    "parents": [
+      {
+        "person": {
+          "$ref": "Person",
+          "$id": "67aa62d30e0587b2eb5c9ca5"
+        },
+        "type": "blood"
+      }
+    ],
+    "spouses": [],
+    "siblings": [],
+    "children": []
+  },
+  {
+    "_id": {
+      "$oid": "67aa62d30e0587b2eb5c9ca8"
+    },
+    "firstName": "Annabelle",
+    "lastName": "Higgins",
+    "birthDate": "null",
+    "deathDate": null,
+    "gender": "Female",
+    "parents": [
+      {
+        "person": {
+          "$ref": "Person",
+          "$id": "67aa62d30e0587b2eb5c9ca6"
+        },
+        "type": "blood"
+      }
+    ],
+    "spouses": [],
+    "siblings": [],
+    "children": []
+  }
+]
